@@ -1,0 +1,28 @@
+name: growwise_demo         # Your project name in lowercase with underscores
+description: A demo Flutter app for GrowWise MVP
+version: 1.0.0+1           # Versioning format is major.minor.patch+build
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"    # Specifies compatible Dart SDK versions
+  flutter: ">=3.0.0"       # Flutter SDK version range (optional but recommended)
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.0.0           # For picking images from gallery/camera
+  cupertino_icons: ^1.0.2        # Standard iOS-style icons package
+  geolocator: ^11.0.0            # For getting device location
+  http: ^1.2.1                   # For HTTP network requests
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true  
+  # Enables material icons and theme support
+
+  # Declare assets if you add any local images or JSON files later:
+  # assets:
+  #   - assets/images/
+
